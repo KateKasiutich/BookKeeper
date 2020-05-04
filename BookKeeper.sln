@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookKeeper", "BookKeeper\BookKeeper.csproj", "{5FAE65DF-5046-4631-9855-3DB4420DAC14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookKeeper.Tests", "BookKeeper.Tests\BookKeeper.Tests.csproj", "{9E05D835-3B14-41DE-B8F2-7D21B856ACFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FAE65DF-5046-4631-9855-3DB4420DAC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FAE65DF-5046-4631-9855-3DB4420DAC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FAE65DF-5046-4631-9855-3DB4420DAC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FAE65DF-5046-4631-9855-3DB4420DAC14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E05D835-3B14-41DE-B8F2-7D21B856ACFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E05D835-3B14-41DE-B8F2-7D21B856ACFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E05D835-3B14-41DE-B8F2-7D21B856ACFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E05D835-3B14-41DE-B8F2-7D21B856ACFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {900FA37C-711C-49C4-89DE-95076156CF2F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,34 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>BookKeeper</title>
+</head>
+<body>
+    <div>
+        <h3>Track Books You read</h3>
+        <table>
+            <tr>
+                <td><p>Book Title</p></td>
+                <td><p>Author</p></td>
+                <td><p>Genre</p></td>
+                <td></td>
+            </tr>
+            @foreach (var b in ViewBag.Books)
+            {
+                <tr>
+                    <td><p>@b.Title</p></td>
+                    <td><p>@b.Author</p></td>
+                    <td><p>@b.Genre</p></td>
+                    <td><p><a href="/Home/edit/@b.Id">Edit</a></p></td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
